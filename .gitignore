@@ -1,4 +1,60 @@
-notebooks/catboost_info/catboost_training.json
-notebooks/catboost_info/learn_error.tsv
-notebooks/catboost_info/time_left.tsv
-notebooks/catboost_info/learn/events.out.tfevents
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Data & Datasets (Preventing large file uploads)
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
+data/processed/*.xlsx
+*.csv
+*.tsv
+*.xlsx
+*.dat
+
+# ML Models & Training Artifacts
+models/*.pkl
+models/*.jbl
+models/*.joblib
+models/*.h5
+models/*.pt
+*.pkl
+*.jbl
+catboost_info/
+notebooks/catboost_info/
+
+# Logs & Metrics
+*.log
+
+# OS & IDE
+.DS_Store
+.vscode/
+.idea/
